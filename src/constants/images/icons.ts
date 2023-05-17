@@ -38,25 +38,25 @@ import vuejs from '/public/assets/images/icons/vuejs.svg';
 import graphql from '/public/assets/images/icons/graphql.svg';
 
 /////////////////////////////////////////////////////////
-import aspnet from '/public/assets/images/icons/gatsby.svg';
-import csharp from '/public/assets/images/icons/go.svg';
-import reactnative from '/public/assets/images/icons/jquery.svg';
-import swift from '/public/assets/images/icons/laravel.svg';
-import ionic from '/public/assets/images/icons/php.svg';
-import ios from '/public/assets/images/icons/vuejs.svg';
-import android from '/public/assets/images/icons/graphql.svg';
-import postgresql from '/public/assets/images/icons/laravel.svg';
-import algolia from '/public/assets/images/icons/php.svg';
-import aws from '/public/assets/images/icons/vuejs.svg';
-import azure from '/public/assets/images/icons/graphql.svg';
+import aspnet from '/public/assets/images/icons/net-vector-logo-seeklogo.com/net-seeklogo.com.svg';
+import csharp from '/public/assets/images/icons/c--4.svg';
+import reactnative from '/public/assets/images/icons/react-native-1.svg';
+import swift from '/public/assets/images/icons/swift-2.svg';
+// import ionic from '/public/assets/images/icons/php.svg';
+import ios from '/public/assets/images/icons/ios-2.svg';
+import android from '/public/assets/images/icons/android-5.svg';
+import postgresql from '/public/assets/images/icons/postgresql.svg';
+import algolia from '/public/assets/images/icons/algolia.svg';
+import aws from '/public/assets/images/icons/aws-2.svg';
+import azure from '/public/assets/images/icons/azure-2.svg';
 
-import microservice from '/public/assets/images/icons/angular.svg';
-import bitbucket from '/public/assets/images/icons/gatsby.svg';
-import docker from '/public/assets/images/icons/go.svg';
-import jira from '/public/assets/images/icons/jquery.svg';
-import trello from '/public/assets/images/icons/laravel.svg';
-import asana from '/public/assets/images/icons/php.svg';
-import monday from '/public/assets/images/icons/vuejs.svg';
+// import microservice from '/public/assets/images/icons/angular.svg';
+import bitbucket from '/public/assets/images/icons/bitbucket-icon.svg';
+import docker from '/public/assets/images/icons/docker-3.svg';
+import jira from '/public/assets/images/icons/jira-3.svg';
+import trello from '/public/assets/images/icons/trello.svg';
+import asana from '/public/assets/images/icons/asana-1.svg';
+import monday from '/public/assets/images/icons/monday-1.svg';
 
 export const icons = {
   typeScript,
@@ -112,7 +112,7 @@ export const icons = {
   csharp,
   reactnative,
   swift,
-  ionic,
+  // ionic,
   ios,
   android,
   // flutter,
@@ -125,7 +125,7 @@ export const icons = {
   algolia,
   aws,
   azure,
-  microservice,
+  // microservice,
   // git,
   // gitlab,
   bitbucket,

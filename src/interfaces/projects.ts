@@ -81,7 +81,7 @@ export type ProjectTechs = {
   csharp: ProjectIcons;
   reactnative: ProjectIcons;
   swift: ProjectIcons;
-  ionic: ProjectIcons;
+  // ionic: ProjectIcons;
   ios: ProjectIcons;
   android: ProjectIcons;
   flutter: ProjectIcons;
@@ -94,7 +94,7 @@ export type ProjectTechs = {
   algolia: ProjectIcons;
   aws: ProjectIcons;
   azure: ProjectIcons;
-  microservice: ProjectIcons;
+  // microservice: ProjectIcons;
   git: ProjectIcons;
   gitlab: ProjectIcons;
   bitbucket: ProjectIcons;

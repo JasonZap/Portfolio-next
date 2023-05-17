@@ -12,11 +12,11 @@ const SkillsCard = () => {
       list.find((item) => item === target);
 
     switch (techNameLower) {
-      case checkItem(['nodejs', 'react'], techNameLower):
+      case checkItem(['nodejs', 'react', ], techNameLower):
         iconStyles.push('rounded-3xl bg-slate-700 dark:bg-transparent');
         break;
 
-      case checkItem(['python', 'sass'], techNameLower):
+      case checkItem(['python', 'sass', ], techNameLower):
         iconStyles.push('h-[1.5em] w-[1.5em]');
         break;
 
@@ -24,7 +24,7 @@ const SkillsCard = () => {
         iconStyles.push('ml-[0.3em]');
         break;
 
-      case checkItem(['django', 'java', 'flask', 'bash', 'github', 'sqlite', 'mysql'], techNameLower):
+      case checkItem(['django', 'java', 'flask', 'bash', 'github', 'sqlite', 'mysql',], techNameLower):
         iconStyles.push('rounded-sm bg-transparent dark:bg-gray-200 ml-[0.32em]');
         break;
 
@@ -35,6 +35,22 @@ const SkillsCard = () => {
       case 'nextjs':
         iconStyles.push('rounded-3xl bg-transparent dark:bg-gray-200');
         break;
+      case 'aws':
+        iconStyles.push('h-[0.8em] w-[1.5em]');
+        break;
+      case 'algolia':
+        iconStyles.push('h-[0.8em] w-[2.5em]');
+        break;
+      case 'swift':
+        iconStyles.push('h-[1.3em] w-[1.3em]');
+        break;
+      case 'docker':
+        iconStyles.push('h-[2.5em] w-[3.5em]');
+        break;
+      case 'asana':
+        iconStyles.push('h-[1.3em] w-[2.0em]');
+        break;
+
     }
     return (
       <div className="inline-flex items-center dark:text-gray-300">
@@ -93,7 +109,7 @@ const SkillsCard = () => {
         <dd className="-mt-1 ml-8 flex-wrap text-base  font-medium">
           <span className="">{renderIcon(TECHS.reactnative)}</span>
           <span className="">{renderIcon(TECHS.swift)}</span>
-          <span className="">{renderIcon(TECHS.ionic)}</span>
+          {/* <span className="">{renderIcon(TECHS.ionic)}</span> */}
           <span className="">{renderIcon(TECHS.ios)}</span>
           <span className="">{renderIcon(TECHS.android)}</span>
           <span className="">{renderIcon(TECHS.flutter)}</span>
@@ -112,7 +128,7 @@ const SkillsCard = () => {
         <dd className="-mt-1 ml-8 flex-wrap text-base  font-medium">
           <span className="">{renderIcon(TECHS.aws)}</span>
           <span className="">{renderIcon(TECHS.azure)}</span>
-          <span className="">{renderIcon(TECHS.microservice)}</span>
+          {/* <span className="">{renderIcon(TECHS.microservice)}</span> */}
         </dd>
         <dt className="text-md mt-3 font-semibold">Version Control:</dt>
         <dd className="-mt-1 ml-8 flex-wrap text-base  font-medium">
