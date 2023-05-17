@@ -151,49 +151,51 @@ const AboutMe = () => {
         <div className="mt-10">
           <Divider name="Work History" />
         </div>
-        <div className="mt-10 rounded-xl bg-white_gray p-6 text-lg  shadow-sm shadow-gray-600 dark:bg-primary_20 dark:shadow-black sm:m-10 sm:mt-0">
-          <h1 className="mb-2 text-2xl font-bold dark:text-white_gray">
-            Full Stack Developer
-          </h1>
-          <h2 className="mb-2 text-1xl font-bold dark:text-white_gray">
-            Upwork, Oct 2020 – Jan 2023
-          </h2>
-          <p className="max-w-[1280px] whitespace-pre-line leading-snug">
-            {displayBio1()}
-          </p>
-        </div>
-        <div className="mt-10 rounded-xl bg-white_gray p-6 text-lg  shadow-sm shadow-gray-600 dark:bg-primary_20 dark:shadow-black sm:m-10 sm:mt-0">
-          <h1 className="mb-2 text-2xl font-bold dark:text-white_gray">
-            Sr. Full Stack Developer
-          </h1>
-          <h2 className="mb-2 text-1xl font-bold dark:text-white_gray">
-            Marvin R. Clement, C.P.A. (Rockdale, Texas), Aug 2017 - Apr 2021
-          </h2>
-          <p className="max-w-[1280px] whitespace-pre-line leading-snug">
-            {displayBio3()}
-          </p>
-        </div>
-        <div className="mt-10 rounded-xl bg-white_gray p-6 text-lg  shadow-sm shadow-gray-600 dark:bg-primary_20 dark:shadow-black sm:m-10 sm:mt-0">
-          <h1 className="mb-2 text-2xl font-bold dark:text-white_gray">
-            Full Stack Developer
-          </h1>
-          <h2 className="mb-2 text-1xl font-bold dark:text-white_gray">
-            Sparkfish (Addison, Texas), June 2013 - Aug 2017
-          </h2>
-          <p className="max-w-[1280px] whitespace-pre-line leading-snug">
-            {displayBio4()}
-          </p>
-        </div>
-        <div className="mt-10 rounded-xl bg-white_gray p-6 text-lg  shadow-sm shadow-gray-600 dark:bg-primary_20 dark:shadow-black sm:m-10 sm:mt-0">
-          <h1 className="mb-2 text-2xl font-bold dark:text-white_gray">
-            Web Developer
-          </h1>
-          <h2 className="mb-2 text-1xl font-bold dark:text-white_gray">
-            Austin Software® (Austin, Texas), Mar 2011 - Jun 2013
-          </h2>
-          <p className="max-w-[1280px] whitespace-pre-line leading-snug">
-            {displayBio2()}
-          </p>
+        <div className="sm:w-[100%]">
+          <div className="mt-10 rounded-xl bg-white_gray p-6 text-lg  shadow-sm shadow-gray-600 dark:bg-primary_20 dark:shadow-black sm:m-10 sm:mt-0">
+            <h1 className="mb-2 text-2xl font-bold dark:text-white_gray">
+              Full Stack Developer
+            </h1>
+            <h2 className="mb-2 text-1xl font-bold dark:text-white_gray">
+              Upwork, Oct 2020 – Jan 2023
+            </h2>
+            <p className="max-w-[1280px] whitespace-pre-line leading-snug">
+              {displayBio1()}
+            </p>
+          </div>
+          <div className="mt-10 rounded-xl bg-white_gray p-6 text-lg  shadow-sm shadow-gray-600 dark:bg-primary_20 dark:shadow-black sm:m-10 sm:mt-0">
+            <h1 className="mb-2 text-2xl font-bold dark:text-white_gray">
+              Sr. Full Stack Developer
+            </h1>
+            <h2 className="mb-2 text-1xl font-bold dark:text-white_gray">
+              Marvin R. Clement, C.P.A. (Rockdale, Texas), Aug 2017 - Apr 2021
+            </h2>
+            <p className="max-w-[1280px] whitespace-pre-line leading-snug">
+              {displayBio3()}
+            </p>
+          </div>
+          <div className="mt-10 rounded-xl bg-white_gray p-6 text-lg  shadow-sm shadow-gray-600 dark:bg-primary_20 dark:shadow-black sm:m-10 sm:mt-0">
+            <h1 className="mb-2 text-2xl font-bold dark:text-white_gray">
+              Full Stack Developer
+            </h1>
+            <h2 className="mb-2 text-1xl font-bold dark:text-white_gray">
+              Sparkfish (Addison, Texas), June 2013 - Aug 2017
+            </h2>
+            <p className="max-w-[1280px] whitespace-pre-line leading-snug">
+              {displayBio4()}
+            </p>
+          </div>
+          <div className="mt-10 rounded-xl bg-white_gray p-6 text-lg  shadow-sm shadow-gray-600 dark:bg-primary_20 dark:shadow-black sm:m-10 sm:mt-0">
+            <h1 className="mb-2 text-2xl font-bold dark:text-white_gray">
+              Web Developer
+            </h1>
+            <h2 className="mb-2 text-1xl font-bold dark:text-white_gray">
+              Austin Software® (Austin, Texas), Mar 2011 - Jun 2013
+            </h2>
+            <p className="max-w-[1280px] whitespace-pre-line leading-snug">
+              {displayBio2()}
+            </p>
+          </div>
         </div>
         <div className="mt-10">
           <Divider name="Certificates" />
