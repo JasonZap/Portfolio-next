@@ -17,20 +17,15 @@ const SkillsCard = () => {
         break;
 
       case checkItem(['python', 'sass'], techNameLower):
-        iconStyles.push('h-[1.2em] w-[1.2em]');
+        iconStyles.push('h-[1.5em] w-[1.5em]');
         break;
 
       case 'javascript':
         iconStyles.push('ml-[0.3em]');
         break;
 
-      case checkItem(
-        ['django', 'java', 'flask', 'bash', 'github', 'sqlite', 'mysql'],
-        techNameLower,
-      ):
-        iconStyles.push(
-          'rounded-sm bg-transparent dark:bg-gray-200 ml-[0.32em]',
-        );
+      case checkItem(['django', 'java', 'flask', 'bash', 'github', 'sqlite', 'mysql'], techNameLower):
+        iconStyles.push('rounded-sm bg-transparent dark:bg-gray-200 ml-[0.32em]');
         break;
 
       case 'redux':
@@ -65,26 +60,42 @@ const SkillsCard = () => {
       <dl>
         <dt className="text-md mt-3 font-semibold">Frontend:</dt>
         <dd className="-mt-1 ml-8 flex-wrap text-base  font-medium">
-          <span>{renderIcon(TECHS.nextjs)}</span>
-          <span>{renderIcon(TECHS.react)}</span>
-          <span>{renderIcon(TECHS.typeScript)}</span>
-          <span>{renderIcon(TECHS.javaScript)}</span>
-          <span>{renderIcon(TECHS.tailwind)}</span>
-          <span>{renderIcon(TECHS.sass)}</span>
-          <span>{renderIcon(TECHS.css)}</span>
-          <span>{renderIcon(TECHS.html)}</span>
+          <span className="">{renderIcon(TECHS.react)}</span>
+          <span className="">{renderIcon(TECHS.angular)}</span>
+          <span className="">{renderIcon(TECHS.vuejs)}</span>
+          <span className="">{renderIcon(TECHS.typeScript)}</span>
+          <span className="">{renderIcon(TECHS.nextjs)}</span>
+          <span className="">{renderIcon(TECHS.d3js)}</span>
+          <span className="">{renderIcon(TECHS.gatsby)}</span>
+          <span className="">{renderIcon(TECHS.javaScript)}</span>
+          <span className="">{renderIcon(TECHS.tailwind)}</span>
+          <span className="">{renderIcon(TECHS.sass)}</span>
+          <span className="">{renderIcon(TECHS.css)}</span>
+          <span className="">{renderIcon(TECHS.html)}</span>
+          <span className="">{renderIcon(TECHS.jquery)}</span>
+          <span className="">{renderIcon(TECHS.bootstrap)}</span>
         </dd>
         <dt className="text-md mt-3 font-semibold">Backend:</dt>
         <dd className="-mt-1 ml-8 flex-wrap text-base  font-medium">
-          <span>{renderIcon(TECHS.python)}</span>
-          <span>{renderIcon(TECHS.java)}</span>
-          <span>{renderIcon(TECHS.bash)}</span>
-          <span>{renderIcon(TECHS.nodejs)}</span>
-          <span>{renderIcon(TECHS.django)}</span>
-          <span>{renderIcon(TECHS.flask)}</span>
+          <span className="">{renderIcon(TECHS.nodejs)}</span>
+          <span className="">{renderIcon(TECHS.laravel)}</span>
+          <span className="">{renderIcon(TECHS.php)}</span>
+          <span className="">{renderIcon(TECHS.go)}</span>
+          <span className="">{renderIcon(TECHS.codeigniter)}</span>
+          <span className="">{renderIcon(TECHS.graphql)}</span>
+          <span className="">{renderIcon(TECHS.python)}</span>
+          <span className="">{renderIcon(TECHS.django)}</span>
+          <span className="">{renderIcon(TECHS.flask)}</span>
+          <span className="">{renderIcon(TECHS.aspnet)}</span>
+          <span className="">{renderIcon(TECHS.csharp)}</span>
         </dd>
         <dt className="text-md mt-3 font-semibold">Mobile:</dt>
         <dd className="-mt-1 ml-8 flex-wrap text-base  font-medium">
+          <span className="">{renderIcon(TECHS.reactnative)}</span>
+          <span className="">{renderIcon(TECHS.swift)}</span>
+          <span className="">{renderIcon(TECHS.ionic)}</span>
+          <span className="">{renderIcon(TECHS.ios)}</span>
+          <span className="">{renderIcon(TECHS.android)}</span>
           <span className="">{renderIcon(TECHS.flutter)}</span>
           <span className="">{renderIcon(TECHS.dart)}</span>
         </dd>
@@ -94,11 +105,28 @@ const SkillsCard = () => {
           <span className="">{renderIcon(TECHS.sqlite)}</span>
           <span className="">{renderIcon(TECHS.firebase)}</span>
           <span className="">{renderIcon(TECHS.mysql)}</span>
+          <span className="">{renderIcon(TECHS.postgresql)}</span>
+          <span className="">{renderIcon(TECHS.algolia)}</span>
         </dd>
-
+        <dt className="text-md mt-3 font-semibold">Cloud & DevOps:</dt>
+        <dd className="-mt-1 ml-8 flex-wrap text-base  font-medium">
+          <span className="">{renderIcon(TECHS.aws)}</span>
+          <span className="">{renderIcon(TECHS.azure)}</span>
+          <span className="">{renderIcon(TECHS.microservice)}</span>
+        </dd>
         <dt className="text-md mt-3 font-semibold">Version Control:</dt>
         <dd className="-mt-1 ml-8 flex-wrap text-base  font-medium">
           <span className="">{renderIcon(TECHS.git)}</span>
+          <span className="">{renderIcon(TECHS.gitlab)}</span>
+          <span className="">{renderIcon(TECHS.bitbucket)}</span>
+        </dd>
+        <dt className="text-md mt-3 font-semibold">Other:</dt>
+        <dd className="-mt-1 ml-8 flex-wrap text-base  font-medium">
+          <span className="">{renderIcon(TECHS.docker)}</span>
+          <span className="">{renderIcon(TECHS.jira)}</span>
+          <span className="">{renderIcon(TECHS.trello)}</span>
+          <span className="">{renderIcon(TECHS.asana)}</span>
+          <span className="">{renderIcon(TECHS.monday)}</span>
         </dd>
       </dl>
     </div>
