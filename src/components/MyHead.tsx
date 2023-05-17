@@ -10,10 +10,10 @@ interface MyHeadProps {
 const IMG_SRC_DEFAULT =
   'https://raw.githubusercontent.com/dylanbuchi/portfolio-next/main/public/assets/images/pages/home/home-page.jpg?token=GHSAT0AAAAAABLHAUH2IZPW4OMLFJZBGKOEYZVVDRQ';
 
-const URL_DEFAULT = 'https://dylanbuchi.com';
+const URL_DEFAULT = 'https://jason-zapata.netlify.app/';
 
-const TITLE_DEFAULT = 'Dylan Buchi: Portfolio';
-const DESCRIPTION_DEFAULT = 'The personal portfolio of Dylan Buchi';
+const TITLE_DEFAULT = 'Jason Zapata: Portfolio';
+const DESCRIPTION_DEFAULT = 'The personal portfolio of Jason Zapata';
 
 const MyHead = ({
   title = TITLE_DEFAULT,
@@ -26,7 +26,7 @@ const MyHead = ({
       <meta http-equiv="X-UA-Compatible" content="ie=edge" />
       <meta http-equiv="Content-Type" content="text/html;charset=UTF-8" />
       <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-      <meta name="author" content="Dylan Buchi" />
+      <meta name="author" content="Jason Zapata" />
       <meta name="title" content={title} />
       <meta name="description" content={description} />
 

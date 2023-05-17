@@ -11,8 +11,11 @@ import TextWithCopyBtn from 'components/Buttons/TextWithCopyBtn';
 const Contact = () => {
   const [messageOverflow, setMessageOverflow] = useState(false);
 
-  const phoneNumber = '+55 32 98410 3562';
-  const email = 'devybuchi@gmail.com';
+  const phoneNumber = '+1 (518) 545-4496';
+  const email = 'jason.zapata.dev1@gmail.com';
+  const linkedin = 'https://www.linkedin.com/in/nichel-james-a4142a220/';
+  const git = 'https://github.com/JasonZap';
+  const twitter = '';
 
   return (
     <div className="custom-scrollbar to-add-blur h-full overflow-y-auto bg-[#c5d6e5] dark:bg-primary_10">
@@ -40,7 +43,8 @@ const Contact = () => {
           <ul className="mt-8 flex w-fit space-x-12  rounded-md bg-gradient-to-t from-[#91c1dc] to-[#dae3eb] p-4 shadow-sm shadow-gray-500 dark:from-[#171d25]  dark:to-[#395672] dark:shadow-inner dark:shadow-primary_10">
             <SocialLink
               className=""
-              href={`${SOCIAL_LINKS.linkedin.website}/in/${USERNAME}`}
+              // href={`${SOCIAL_LINKS.linkedin.website}/in/${USERNAME}`}
+              href={linkedin}
               renderIcon={() => (
                 <div className="text-linkedin hover:rounded-sm hover:border-black hover:bg-white_gray dark:text-accent_90 md:bg-transparent">
                   <FaLinkedin className=" h-6 w-6 hover:scale-[1.28] hover:text-linkedin dark:hover:text-linkedin" />
@@ -49,7 +53,8 @@ const Contact = () => {
             />
             <div className="text-github hover:rounded-full hover:border-black hover:bg-white_gray dark:text-accent_90">
               <SocialLink
-                href={`${SOCIAL_LINKS.github.website}/${USERNAME}`}
+                // href={`${SOCIAL_LINKS.github.website}/${USERNAME}`}
+                href={git}
                 renderIcon={() => (
                   <FaGithub className=" h-6 w-6 hover:scale-[1.28] dark:hover:text-github" />
                 )}
@@ -57,7 +62,8 @@ const Contact = () => {
             </div>
             <div className=" text-twitter dark:text-accent_90 ">
               <SocialLink
-                href={`${SOCIAL_LINKS.twitter.website}/${USERNAME}`}
+                // href={`${SOCIAL_LINKS.twitter.website}/${USERNAME}`}
+                href={twitter}
                 renderIcon={() => (
                   <FaTwitter className="h-6 w-6 hover:scale-[1.28] hover:text-twitter" />
                 )}

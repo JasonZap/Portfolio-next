@@ -28,7 +28,8 @@ const NavItemList = ({
     ['Home', '/'],
     ['About me', '/about-me'],
     ['Projects', '/projects'],
-    ['Contact', '/contact'],
+    ['Testimonial', '/testimonial'],
+    ['Contact', '/contact'],    
   ]);
 
   useEffect(() => {

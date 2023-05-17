@@ -33,7 +33,7 @@ const CertificatesCarousel = () => {
 
   return (
     <Slider {...settings}>
-    {/*   <Link
+      {/* <Link
         href="https://www.credly.com/badges/1f67f34b-23b4-4fc6-98ac-3d4187a833b5"
         target="_blank"
         rel="noopener noreferrer"
@@ -49,8 +49,8 @@ const CertificatesCarousel = () => {
             height: 'auto',
           }}
         />
-      </Link> */}
-     {/*  <Link
+      </Link>
+      <Link
         href={`${CERTIFICATE_BASE_URL}/verify/6SAX4ZTWL3U9`}
         target="_blank"
         rel="noopener noreferrer"
@@ -66,8 +66,8 @@ const CertificatesCarousel = () => {
             height: 'auto',
           }}
         />
-      </Link> */}
-     {/*  <Link
+      </Link>
+      <Link
         href={`${CERTIFICATE_BASE_URL}/verify/WH9PKH3CCPYV`}
         target="_blank"
         rel="noopener noreferrer"
@@ -83,9 +83,9 @@ const CertificatesCarousel = () => {
             height: 'auto',
           }}
         />
-      </Link> */}
+      </Link>
 
-     {/*  <Link
+      <Link
         href={`${CERTIFICATE_BASE_URL}/specialization/K4KYAYQEZ3NU`}
         target="_blank"
         rel="noopener noreferrer"
@@ -101,8 +101,8 @@ const CertificatesCarousel = () => {
             height: 'auto',
           }}
         />
-      </Link> */}
-    {/*   <Link
+      </Link>
+      <Link
         href={`${CERTIFICATE_BASE_URL}/specialization/SMLQ59LT64FW`}
         target="_blank"
         rel="noopener noreferrer"
@@ -118,8 +118,8 @@ const CertificatesCarousel = () => {
             height: 'auto',
           }}
         />
-      </Link> */}
-     {/*  <Link
+      </Link>
+      <Link
         href={`${CERTIFICATE_BASE_URL}/verify/UTRYFKDX3RZH`}
         target="_blank"
         rel="noopener noreferrer"
@@ -135,8 +135,8 @@ const CertificatesCarousel = () => {
             height: 'auto',
           }}
         />
-      </Link> */}
-     {/*  <Link
+      </Link>
+      <Link
         href={`${CERTIFICATE_BASE_URL}/verify/4TVBFTZTU3P5`}
         target="_blank"
         rel="noopener noreferrer"
@@ -153,23 +153,6 @@ const CertificatesCarousel = () => {
           }}
         />
       </Link> */}
-      <Link
-        href={`https://www.credly.com/badges/f93e3d37-36e1-4b02-9546-b55ae284d8f9`}
-        target="_blank"
-        rel="noopener noreferrer"
-      >
-        <Image
-          className={certificateStyles}
-          src={certificates.awscertifiedcloudpractitioner.src}
-          alt="certificate"
-          width={certificates.awscertifiedcloudpractitioner.width}
-          height={certificates.awscertifiedcloudpractitioner.height}
-          style={{
-            maxWidth: '100%',
-            height: 'auto',
-          }}
-        />
-      </Link>
     </Slider>
   );
 };

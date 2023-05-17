@@ -13,41 +13,46 @@ const Home = () => {
   const iconStyle =
     'ml-[0.1rem] cursor-pointer rounded-xl bg-[#dae6f2] p-3 text-3xl shadow-sm shadow-primary_10 transition hover:scale-150 hover:bg-transparent hover:shadow-none dark:bg-[#254d77] dark:shadow-none dark:hover:bg-transparent';
 
+  const linkedin = 'https://www.linkedin.com/in/nichel-james-a4142a220/';
+  const git = 'https://github.com/JasonZap';
+  const twitter = '';
+
   return (
     <div className="custom-scrollbar to-add-blur flex h-full flex-col overflow-auto text-base sm:items-center sm:overflow-hidden">
       <div className="mt-auto  p-10 sm:p-0">
         <h2 className="text-2xl tracking-wide">
           {helloMsg}
           <span className="text-3xl font-bold tracking-wide text-blue-700 dark:text-accent_primary">
-            Dylan
+            Jason Zapata,
           </span>
-          {' a'}
+          {/* {' a'} */}
         </h2>
         <h1 className="text-5xl font-extrabold leading-tight tracking-wide text-gray-800 dark:text-accent_90">
-          Full-Stack Developer
+          Senior Full-Stack Developer
         </h1>
-        <div className="flex w-[60%]  justify-between py-10 text-lg transition-colors sm:w-[50%]">
+        <div className="flex w-[80%]  justify-between py-10 text-lg transition-colors sm:w-[30%]">
           <SocialLink
-            href={`${SOCIAL_LINKS.linkedin.website}/in/${USERNAME}`}
+            // href={`${SOCIAL_LINKS.linkedin.website}/in/${USERNAME}`}
+            href={linkedin}
             renderIcon={() => <FaLinkedin />}
             className={
-              ' text-[#0077b5] hover:text-[#0077b5] dark:text-white_gray dark:hover:text-[#0077b5] ' +
-              iconStyle
+              ' text-[#0077b5] hover:text-[#0077b5] dark:text-white_gray dark:hover:text-[#0077b5] ' + iconStyle
             }
           />
           <SocialLink
-            href={`${SOCIAL_LINKS.github.website}/${USERNAME}`}
+            // href={`${SOCIAL_LINKS.github.website}/${USERNAME}`}
+            href={git}
             renderIcon={() => <FaGithub />}
             className={
               'text-[#333] hover:text-[#333]  dark:text-white_gray ' + iconStyle
             }
           />
           <SocialLink
-            href={`${SOCIAL_LINKS.twitter.website}/${USERNAME}`}
+            // href={`${SOCIAL_LINKS.twitter.website}/${USERNAME}`}
+            href={twitter}
             renderIcon={() => <FaTwitter />}
             className={
-              'hover:t8ext-[#1da1f2] text-[#1da1f2] dark:text-white_gray  dark:hover:text-[#1da1f2] ' +
-              iconStyle
+              'hover:t8ext-[#1da1f2] text-[#1da1f2] dark:text-white_gray  dark:hover:text-[#1da1f2] ' + iconStyle
             }
           />
         </div>

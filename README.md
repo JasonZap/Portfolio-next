@@ -9,7 +9,7 @@
 
 ---
 
-<p align="center"> Website: https://dylanbuchi.com</p>
+<p align="center"> Website: https://jason-zapata.netlify.app/</p>
 <p align="center">
   <img alt="Home" src="./public/assets/images/pages/home/home-page.png" width="47%">
 &nbsp; &nbsp; &nbsp; &nbsp;
@@ -40,4 +40,4 @@ All commands are run from the root of the project, from a terminal:
 
 ## Author
 
--   Website - [Dylan Buchi](https://dylanbuchi.com/)
+-   Website - [Jason Zapata](https://jason-zapata.netlify.app/)
